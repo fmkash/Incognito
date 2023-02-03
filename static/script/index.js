@@ -21,6 +21,7 @@ import { gs } from './gs.js';
 import { apps } from './apps.js';
 import { access } from './home.js';
 import { options } from './options.js';
+import { sflix } from './sflix.js';
 import { support } from './support.js';
 import { community } from './community.js';
 
@@ -225,6 +226,7 @@ app.on('default', access);
 app.on('#gs', gs);
 app.on('#apps', apps);
 app.on('#settings', options);
+app.on('#sflix') sflix);
 app.on('#support', support);
 app.on('#community', community);
 
