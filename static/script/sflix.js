@@ -95,7 +95,7 @@ async function sflix(app) {
 
 
 async function compileGs(app) {
-    const res = await fetch('./gs.json');
+    const res = await fetch('./sflix.json');
     const json = await res.json();
 
     const list = {
@@ -125,7 +125,7 @@ async function compileGs(app) {
             events: {
                 click(event) {
                     function foc() {
-                        if (window.location.hash !== '#gs' || !app.main.player) {
+                        if (window.location.hash !== '#sflx' || !app.main.player) {
                             return window.removeEventListener('click', foc);
                         };
                         app.main.player.querySelector('iframe').contentWindow.focus()
@@ -166,7 +166,7 @@ async function compileGs(app) {
                         'onclick', 
                         '(' + (() => {
 
-                            if (window.location.hash !== '#gs') return this.removeAttribute('onclick');
+                            if (window.location.hash !== '#sflix') return this.removeAttribute('onclick');
 
                             event.preventDefault();
                             
@@ -307,4 +307,4 @@ async function compileGs(app) {
     ]
 };
 
-export { gs };
+export { sflix };
