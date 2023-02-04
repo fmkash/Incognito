@@ -1,14 +1,44 @@
 [
+   {
+    "img": "https://upload.wikimedia.org/wikipedia/en/f/f2/Airbuddies.jpg",
+    "location": "https://staticdev.org/watch-movie/embed/QWlyIEJ1ZGRpZXMoQWR2ZW50dXJlL0NvbWVkeS9GYW1pbHkgMjAwNik===",
+    "title": "Air Buddies,
+    "category": "action_adventure"
+  },
   {
     "img": "https://upload.wikimedia.org/wikipedia/en/1/12/Ant-Man_%28film%29_poster.jpg",
     "location": "https://staticdev.org/watch-movie/embed/QW50LU1hbihBY3Rpb24vQWR2ZW50dXJlLyAyMDE1KQ==",
     "title": "Ant-Man",
     "category": "action_adventure"
   },
-   {
+  {
     "img": "https://upload.wikimedia.org/wikipedia/en/2/2c/Ant-Man_and_the_Wasp_poster.jpg",
     "location": "https://staticdev.org/watch-movie/embed/QW50LU1hbiAmIFRoZSBXYXNwKEFjdGlvbi9BZHZlbnR1cmUvIDIwMTgp",
     "title": "Ant-Man & The Wasp",
     "category": "action_adventure"
-  }
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/en/d/d6/Avatar_%282009_film%29_poster.jpg",
+    "location": "https://staticdev.org/watch-movie/embed/QXZhdGFyKEFjdGlvbi9GYW50YXN5LyAyMDA5KQ==",
+    "title": "Avatar",
+    "category": "action_adventure"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/en/5/54/Avatar_The_Way_of_Water_poster.jpg",
+    "location": "https://staticdev.org/watch-movie/embed/QXZhdGFyOiBUaGUgV2F5IG9mIFdhdGVyKEFjdGlvbi9BZHZlbnR1cmUvRmFudGFzeS8gMjAyMik=",
+    "title": "Avatar: The Way Of Water"
+    "category": "action_adventure"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/en/f/ff/Avengers_Age_of_Ultron_poster.jpg",
+    "location": "https://staticdev.org/watch-movie/embed/VGhlIEF2ZW5nZXJzOiBBZ2Ugb2YgVWx0cm9uKEFjdGlvbi9BZHZlbnR1cmUvIDIwMTUp",
+    "title": "Avengers: Age of Utron",
+    "category": "action_adventure"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/en/8/8a/The_Avengers_%282012_film%29_poster.jpg",
+    "location": "https://staticdev.org/watch-movie/embed/VGhlIEF2ZW5nZXJzKEFjdGlvbi9BZHZlbnR1cmUvIDIwMTIp",
+    "title": "Avengers",
+    "category": "action_adventure"
+  },
 ]
