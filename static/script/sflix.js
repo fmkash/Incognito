@@ -113,7 +113,7 @@ async function compileGs(app) {
 
     for (const entry of json) {
         const elem = app.createElement('div', [], {
-            class: 'gs-entry',
+            class: 'sf-entry',
             style: {
                 background: `url(${entry.img})`,
                 'background-size': 'cover'
@@ -206,7 +206,7 @@ async function compileGs(app) {
                 }
             }),
             app.createElement('div', list.featured, {
-                class: 'gs-library'
+                class: 'sf-library'
             })
         ], {
             class: 'data-section featured category',
@@ -224,7 +224,7 @@ async function compileGs(app) {
                 }
             }),
             app.createElement('div', list.multi, {
-                class: 'gs-library'
+                class: 'sf-library'
             })
         ], {
             class: 'data-section multi category',
@@ -242,7 +242,7 @@ async function compileGs(app) {
                 }
             }),
             app.createElement('div', list.marvel, {
-                class: 'gs-library'
+                class: 'sf-library'
             })
         ], {
             class: 'data-section marvel category',
@@ -260,7 +260,7 @@ async function compileGs(app) {
                 }
             }),
             app.createElement('div', list.indie, {
-                class: 'gs-library'
+                class: 'sf-library'
             })
         ], {
             class: 'data-section indie category',
@@ -278,7 +278,7 @@ async function compileGs(app) {
                 }
             }),
             app.createElement('div', [ ...list.gba, ...list.snes, ...list.nes, ...list.n64 ], {
-                class: 'gs-library'
+                class: 'sf-library'
             })
         ], {
             class: 'data-section nintendo category',
@@ -296,7 +296,7 @@ async function compileGs(app) {
                 }
             }),
             app.createElement('div', list.gfn, {
-                class: 'gs-library'
+                class: 'sf-library'
             })
         ], {
             class: 'data-section gfn category',
