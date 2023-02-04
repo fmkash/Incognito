@@ -125,7 +125,7 @@ async function compileGs(app) {
             events: {
                 click(event) {
                     function foc() {
-                        if (window.location.hash !== '#sflx' || !app.main.player) {
+                        if (window.location.hash !== '#sflix' || !app.main.player) {
                             return window.removeEventListener('click', foc);
                         };
                         app.main.player.querySelector('iframe').contentWindow.focus()
