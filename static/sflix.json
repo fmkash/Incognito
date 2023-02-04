@@ -6,7 +6,6 @@
     "author": "Yendis Entertainment",
     "description": "Krunker.io is a remarkable first-person shooter game where you fall right into a dark world, tasked with fighting against other players from around the world.",
     "category": "multi",
-    "featured": true
   },
   {
     "img": "./img/gs/moo.png",
@@ -58,7 +57,6 @@
     "location": "./load.html#MXYxLmxvbA%3D%3D",
     "title": "1v1.LOL",
     "category": "multi",
-    "featured": true,
     "description": "Discover 1v1, the online building simulator & third person shooting game. Battle royale, build fight, box fight, zone wars and more game modes to enjoy!"
   },
   {
