@@ -223,6 +223,28 @@ section p a {
     transform: scale(1.05);
     transition: 0.1s;
 }
+.sf-library {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,166px);
+    justify-content: space-between;
+    grid-gap: 20px;
+    margin: 10px 0 30px;
+}
+.sf-entry {
+    width: 220px;
+    height: 326px;
+    background: #fff;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+}
+.sf-entry[data-active] {
+    display: inline-block;
+}
+.sf-entry:hover {
+    transform: scale(1.05);
+    transition: 0.1s;
+}
 header {
     height: 80px;
     width: 100%;
