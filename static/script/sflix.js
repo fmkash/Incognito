@@ -99,16 +99,22 @@ async function compileGs(app) {
     const json = await res.json();
 
     const list = {
-        multi: [],
-        featured: [],
         action_adventure: [],
-        indie: [],
-        nes: [],
-        snes: [],
-        gba: [],
-        sega: [],
-        gfn: [],
-        n64: [],
+        animation: [],
+        biography: [],
+        comedy: [],
+        crime: [],
+        documentary: [],
+        drama: [],
+        family: [],
+        fantasy: [],
+        history: [],
+        horror: [],
+        musical: [],
+        romance: [],
+        scifi: [],
+        sport: [],
+        thriller: [],
     };
 
     for (const entry of json) {
@@ -197,42 +203,6 @@ async function compileGs(app) {
 
     return [
         app.createElement('section', [
-            app.createElement('span', 'Featured', {
-                style: {
-                    display: 'block',
-                    'margin-bottom': '30px',
-                    'font-size': '18px',
-                    'font-weight': '500'
-                }
-            }),
-            app.createElement('div', list.featured, {
-                class: 'sf-library'
-            })
-        ], {
-            class: 'data-section featured category',
-            attrs: {
-                'data-category': 'featured'
-            }
-        }), 
-        app.createElement('section', [
-            app.createElement('span', 'Multiplayer', {
-                style: {
-                    display: 'block',
-                    'margin-bottom': '30px',
-                    'font-size': '18px',
-                    'font-weight': '500'
-                }
-            }),
-            app.createElement('div', list.multi, {
-                class: 'sf-library'
-            })
-        ], {
-            class: 'data-section multi category',
-            attrs: {
-                'data-category': 'multi'
-            }
-        }),
-        app.createElement('section', [
             app.createElement('span', 'Action/Adventure', {
                 style: {
                     display: 'block',
@@ -249,9 +219,9 @@ async function compileGs(app) {
             attrs: {
                 'data-category': 'action_adventure'
             }
-        }),
+        }), 
         app.createElement('section', [
-            app.createElement('span', 'Indie', {
+            app.createElement('span', 'Animation', {
                 style: {
                     display: 'block',
                     'margin-bottom': '30px',
@@ -259,17 +229,17 @@ async function compileGs(app) {
                     'font-weight': '500'
                 }
             }),
-            app.createElement('div', list.indie, {
+            app.createElement('div', list.animation, {
                 class: 'sf-library'
             })
         ], {
-            class: 'data-section indie category',
+            class: 'data-section animation category',
             attrs: {
-                'data-category': 'indie'
+                'data-category': 'animation'
             }
         }),
         app.createElement('section', [
-            app.createElement('span', 'Nintendo', {
+            app.createElement('span', 'Comedy', {
                 style: {
                     display: 'block',
                     'margin-bottom': '30px',
@@ -277,17 +247,17 @@ async function compileGs(app) {
                     'font-weight': '500'
                 }
             }),
-            app.createElement('div', [ ...list.gba, ...list.snes, ...list.nes, ...list.n64 ], {
+            app.createElement('div', list.comedy, {
                 class: 'sf-library'
             })
         ], {
-            class: 'data-section nintendo category',
+            class: 'data-section comedy category',
             attrs: {
-                'data-category': 'nintendo'
+                'data-category': 'comedy'
             }
         }),
         app.createElement('section', [
-            app.createElement('span', 'GeForce Now', {
+            app.createElement('span', 'Crime', {
                 style: {
                     display: 'block',
                     'margin-bottom': '30px',
@@ -295,15 +265,231 @@ async function compileGs(app) {
                     'font-weight': '500'
                 }
             }),
-            app.createElement('div', list.gfn, {
+            app.createElement('div', list.crime, {
                 class: 'sf-library'
             })
         ], {
-            class: 'data-section gfn category',
+            class: 'data-section crime category',
             attrs: {
-                'data-category': 'gfn'
+                'data-category': 'crime'
+            }
+        }),
+            app.createElement('div', list.crime, {
+                class: 'sf-library'
+            })
+        ], {
+            class: 'data-section crime category',
+            attrs: {
+                'data-category': 'crime'
+            }
+        }),
+        app.createElement('section', [
+            app.createElement('span', 'Documentaries', {
+                style: {
+                    display: 'block',
+                    'margin-bottom': '30px',
+                    'font-size': '18px',
+                    'font-weight': '500'
+                }
+            }),
+            app.createElement('div', list.documentary, {
+                class: 'sf-library'
+            })
+        ], {
+            class: 'data-section documentary category',
+            attrs: {
+                'data-category': 'documentary'
+            }
+        }),        app.createElement('section', [
+            app.createElement('span', 'Drama', {
+                style: {
+                    display: 'block',
+                    'margin-bottom': '30px',
+                    'font-size': '18px',
+                    'font-weight': '500'
+                }
+            }),
+            app.createElement('div', list.drama, {
+                class: 'sf-library'
+            })
+        ], {
+            class: 'data-section drama category',
+            attrs: {
+                'data-category': 'drama'
+            }
+        }), 
+          // NEW SECTION
+          app.createElement('section', [
+            app.createElement('span', 'Family', {
+                style: {
+                    display: 'block',
+                    'margin-bottom': '30px',
+                    'font-size': '18px',
+                    'font-weight': '500'
+                }
+            }),
+            app.createElement('div', list.family, {
+                class: 'sf-library'
+            })
+        ], {
+            class: 'data-section family category',
+            attrs: {
+                'data-category': 'family'
+            }
+        }),
+                    // NEW SECTION
+          app.createElement('section', [
+            app.createElement('span', 'Fantasy', {
+                style: {
+                    display: 'block',
+                    'margin-bottom': '30px',
+                    'font-size': '18px',
+                    'font-weight': '500'
+                }
+            }),
+            app.createElement('div', list.fantasy, {
+                class: 'sf-library'
+            })
+        ], {
+            class: 'data-section fantasy category',
+            attrs: {
+                'data-category': 'fantasy'
+            }
+        }),
+                    // NEW SECTION
+          app.createElement('section', [
+            app.createElement('span', 'History', {
+                style: {
+                    display: 'block',
+                    'margin-bottom': '30px',
+                    'font-size': '18px',
+                    'font-weight': '500'
+                }
+            }),
+            app.createElement('div', list.history, {
+                class: 'sf-library'
+            })
+        ], {
+            class: 'data-section history category',
+            attrs: {
+                'data-category': 'history'
+            }
+        }),
+                    // NEW SECTION
+          app.createElement('section', [
+            app.createElement('span', 'Horror', {
+                style: {
+                    display: 'block',
+                    'margin-bottom': '30px',
+                    'font-size': '18px',
+                    'font-weight': '500'
+                }
+            }),
+            app.createElement('div', list.horror, {
+                class: 'sf-library'
+            })
+        ], {
+            class: 'data-section horror category',
+            attrs: {
+                'data-category': 'horror'
+            }
+        }),
+                              // NEW SECTION
+          app.createElement('section', [
+            app.createElement('span', 'Musical', {
+                style: {
+                    display: 'block',
+                    'margin-bottom': '30px',
+                    'font-size': '18px',
+                    'font-weight': '500'
+                }
+            }),
+            app.createElement('div', list.musical, {
+                class: 'sf-library'
+            })
+        ], {
+            class: 'data-section musical category',
+            attrs: {
+                'data-category': 'musical'
+            }
+        }),
+                                        // NEW SECTION
+          app.createElement('section', [
+            app.createElement('span', 'Romance', {
+                style: {
+                    display: 'block',
+                    'margin-bottom': '30px',
+                    'font-size': '18px',
+                    'font-weight': '500'
+                }
+            }),
+            app.createElement('div', list.romance, {
+                class: 'sf-library'
+            })
+        ], {
+            class: 'data-section musical category',
+            attrs: {
+                'data-category': 'musical'
+            }
+        }),
+                              // NEW SECTION
+          app.createElement('section', [
+            app.createElement('span', 'Sci-Fi', {
+                style: {
+                    display: 'block',
+                    'margin-bottom': '30px',
+                    'font-size': '18px',
+                    'font-weight': '500'
+                }
+            }),
+            app.createElement('div', list.scifi, {
+                class: 'sf-library'
+            })
+        ], {
+            class: 'data-section musical category',
+            attrs: {
+                'data-category': 'scifi'
+            }
+        }),
+                                        // NEW SECTION
+          app.createElement('section', [
+            app.createElement('span', 'Sport', {
+                style: {
+                    display: 'block',
+                    'margin-bottom': '30px',
+                    'font-size': '18px',
+                    'font-weight': '500'
+                }
+            }),
+            app.createElement('div', list.sport, {
+                class: 'sf-library'
+            })
+        ], {
+            class: 'data-section sport category',
+            attrs: {
+                'data-category': 'sport'
+            }
+        }),
+                                                  // NEW SECTION
+          app.createElement('section', [
+            app.createElement('span', 'Thriller', {
+                style: {
+                    display: 'block',
+                    'margin-bottom': '30px',
+                    'font-size': '18px',
+                    'font-weight': '500'
+                }
+            }),
+            app.createElement('div', list.thriller, {
+                class: 'sf-library'
+            })
+        ], {
+            class: 'data-section thriller category',
+            attrs: {
+                'data-category': 'thriller'
             }
         })
+            
     ]
 };
 
