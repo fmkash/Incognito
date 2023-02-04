@@ -40,5 +40,23 @@
     "location": "https://staticdev.org/watch-movie/embed/VGhlIEF2ZW5nZXJzKEFjdGlvbi9BZHZlbnR1cmUvIDIwMTIp",
     "title": "Avengers",
     "category": "action_adventure"
-  }
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg",
+    "location": "https://staticdev.org/watch-movie/embed/VGhlIEF2ZW5nZXJzOiBBZ2Ugb2YgVWx0cm9uKEFjdGlvbi9BZHZlbnR1cmUvIDIwMTUp",
+    "title": "Avengers: Infinity War",
+    "category": "action_adventure"
+  },  
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg",
+    "location": "https://staticdev.org/watch-movie/embed/VGhlIEF2ZW5nZXJzOiBFbmRnYW1lKEFjdGlvbi9BZHZlbnR1cmUvIDIwMTkp",
+    "title": "Avengers: EndGame",
+    "category": "action_adventure"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/en/5/5f/Bee_Movie_%282007_animated_feature_film%29.jpg",
+    "location": "https://staticdev.org/watch-movie/embed/QmVlIE1vdmllKEFkdmVudHVyZS9BbmltYXRpb24vQ29tZWR5LyAyMDA3KQ==",
+    "title": "Bee Movie",
+    "category": "action_adventure"
+  },
 ]
