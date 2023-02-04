@@ -34,6 +34,13 @@
     "title": "Ant-Man",
     "category": "marvel"
   },
+   {
+    "img": "https://upload.wikimedia.org/wikipedia/en/2/2c/Ant-Man_and_the_Wasp_poster.jpg",
+    "location": "https://staticdev.org/watch-movie/embed/QW50LU1hbiAmIFRoZSBXYXNwKEFjdGlvbi9BZHZlbnR1cmUvIDIwMTgp",
+    "title": "Ant-Man & The Wasp",
+    "category": "marvel",
+    "featured": true
+  },
   {
     "img": "./img/gs/sg.jpg",
     "location": "./load.html#aHR0cHM6Ly9wbGF5LmdlZm9yY2Vub3cuY29tL21hbGwvIy9kZWVwbGluaz9nYW1lLWlkPTM5Njk5ZmI3LTVhMDUtNDFlNi04NmIyLTNjZDZmZDZjNDU5Yw%3D%3D",
