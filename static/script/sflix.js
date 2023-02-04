@@ -274,15 +274,6 @@ async function compileGs(app) {
                 'data-category': 'crime'
             }
         }),
-            app.createElement('div', list.crime, {
-                class: 'sf-library'
-            })
-        ], {
-            class: 'data-section crime category',
-            attrs: {
-                'data-category': 'crime'
-            }
-        }),
         app.createElement('section', [
             app.createElement('span', 'Documentaries', {
                 style: {
