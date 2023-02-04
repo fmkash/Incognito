@@ -29,7 +29,7 @@
     "title": "Skribbl.io"
   },
   {
-    "img": "./img/sflix/movies/ant-man.jpg",
+    "img": "https://upload.wikimedia.org/wikipedia/en/1/12/Ant-Man_%28film%29_poster.jpg",
     "location": "https://staticdev.org/watch-movie/embed/QW50LU1hbihBY3Rpb24vQWR2ZW50dXJlLyAyMDE1KQ==",
     "title": "Ant-Man",
     "category": "marvel"
