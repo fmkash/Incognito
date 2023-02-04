@@ -65,7 +65,7 @@ async function sflix(app) {
         '(' + (function() {
             let count = 0;
 
-            app.main.library.querySelectorAll('.gs-entry').forEach(node => {
+            app.main.library.querySelectorAll('.sf-entry').forEach(node => {
                 if (node.getAttribute('data-title').toLowerCase().includes(app.search.input.value.toLowerCase())) {
                     node.setAttribute('data-active', '1');
                     count++;
@@ -75,7 +75,7 @@ async function sflix(app) {
             }); 
 
             app.main.library.querySelectorAll('.category').forEach(node => {
-                if (!node.querySelectorAll('.gs-library .gs-entry[data-active]').length) {
+                if (!node.querySelectorAll('.sf-library .sf-entry[data-active]').length) {
                     node.style.display = 'none';
                 } else {
                     node.style.removeProperty('display');
