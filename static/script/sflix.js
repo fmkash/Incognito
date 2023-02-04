@@ -101,7 +101,7 @@ async function compileGs(app) {
     const list = {
         multi: [],
         featured: [],
-        web: [],
+        marvel: [],
         indie: [],
         nes: [],
         snes: [],
@@ -233,7 +233,7 @@ async function compileGs(app) {
             }
         }),
         app.createElement('section', [
-            app.createElement('span', 'Mobile & Web', {
+            app.createElement('span', 'Marvel', {
                 style: {
                     display: 'block',
                     'margin-bottom': '30px',
@@ -241,13 +241,13 @@ async function compileGs(app) {
                     'font-weight': '500'
                 }
             }),
-            app.createElement('div', list.web, {
+            app.createElement('div', list.marvel, {
                 class: 'gs-library'
             })
         ], {
-            class: 'data-section web category',
+            class: 'data-section marvel category',
             attrs: {
-                'data-category': 'web'
+                'data-category': 'marvel'
             }
         }),
         app.createElement('section', [
