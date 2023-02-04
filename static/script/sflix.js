@@ -101,7 +101,7 @@ async function compileGs(app) {
     const list = {
         multi: [],
         featured: [],
-        marvel: [],
+        action_adventure: [],
         indie: [],
         nes: [],
         snes: [],
@@ -233,7 +233,7 @@ async function compileGs(app) {
             }
         }),
         app.createElement('section', [
-            app.createElement('span', 'Marvel', {
+            app.createElement('span', 'Action/Adventure', {
                 style: {
                     display: 'block',
                     'margin-bottom': '30px',
@@ -241,13 +241,13 @@ async function compileGs(app) {
                     'font-weight': '500'
                 }
             }),
-            app.createElement('div', list.marvel, {
+            app.createElement('div', list.action_adventure, {
                 class: 'sf-library'
             })
         ], {
-            class: 'data-section marvel category',
+            class: 'data-section action_adventure category',
             attrs: {
-                'data-category': 'marvel'
+                'data-category': 'action_adventure'
             }
         }),
         app.createElement('section', [
