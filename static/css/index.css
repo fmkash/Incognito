@@ -227,7 +227,7 @@ section p a {
     display: grid;
     grid-template-columns: repeat(auto-fill,166px);
     justify-content: space-between;
-    grid-gap: 20px;
+    grid-gap: 50px;
     margin: 10px 0 30px;
 }
 .sf-entry {
