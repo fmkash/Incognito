@@ -66,9 +66,39 @@
     "category": "action_adventure"
   },
   {
-    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+    "img": "https://upload.wikimedia.org/wikipedia/en/d/d6/Black_Panther_%28film%29_poster.jpg",
     "location": "https://staticdev.org/watch-movie/embed/QmxhY2sgUGFudGhlcihBY3Rpb24vU2NpLUZpIDIwMTgp==",
     "title": "Black Panther",
+    "category": "action_adventure"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/en/e/e9/Black_Widow_%282021_film%29_poster.jpg",
+    "location": "https://staticdev.org/watch-movie/embed/QmxhY2sgV2lkb3coQWN0aW9uL1NjaS1GaSAyMDIxKQ==",
+    "title": "Black Widow",
+    "category": "action_adventure"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/en/5/53/Captain_America_Civil_War_poster.jpg",
+    "location": "https://staticdev.org/watch-movie/embed/Q2FwdGFpbiBBbWVyaWNhOiBDaXZpbCBXYXIoQWN0aW9uL0FkdmVudHVyZS9TY2ktRmkvIDIwMTYp",
+    "title": "Captain America: Civil War",
+    "category": "action_adventure"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/en/3/37/Captain_America_The_First_Avenger_poster.jpg",
+    "location": "https://staticdev.org/watch-movie/embed/Q2FwdGFpbiBBbWVyaWNhOiBUaGUgRmlyc3QgQXZlbmdlcihBY3Rpb24vQWR2ZW50dXJlL1NjaS1GaS8gMjAxMSk=",
+    "title": "Captain America: The First Avenger",
+    "category": "action_adventure"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/en/9/9e/Captain_America_The_Winter_Soldier_poster.jpg",
+    "location": "https://staticdev.org/watch-movie/embed/Q2FwdGFpbiBBbWVyaWNhOiBUaGUgV2ludGVyIFNvbGRpZXIoQWN0aW9uL0FkdmVudHVyZS9TY2ktRmkvIDIwMTQp",
+    "title": "Captain America: The Winter Soldier",
+    "category": "action_adventure"
+  },
+  {
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Cars_2006.jpg/220px-Cars_2006.jpg",
+    "location": "https://staticdev.org/watch-movie/embed/Q2FycyhBZHZlbnR1cmUvQW5pbWF0aW9uL0NvbWVkeS8gMjAwNik=",
+    "title": "Cars",
     "category": "action_adventure"
   }
 ]
